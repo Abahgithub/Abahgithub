@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">ALPHA — sunrise over mountains</title><desc id="desc">A calm sunrise behind layered mountains in a dark slate and terracotta palette.</desc>
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#273646"/><stop offset=".52" stop-color="#53616c"/><stop offset="1" stop-color="#bd8069"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#f7d5a5" stop-opacity=".9"/><stop offset="1" stop-color="#f7d5a5" stop-opacity="0"/></radialGradient>
+ <linearGradient id="sun" x2="1" y2="1"><stop stop-color="#ffe5b7"/><stop offset="1" stop-color="#d58c66"/></linearGradient>
+</defs>
+<rect width="1200" height="360" fill="url(#sky)"/>
+<ellipse cx="600" cy="285" rx="390" ry="145" fill="url(#glow)"/>
+<circle cx="600" cy="218" r="67" fill="url(#sun)"/>
+<path d="M0 260 130 145 220 218 390 78 535 220 690 115 840 225 1010 96 1200 230V360H0Z" fill="#35434c"/>
+<path d="M0 280 175 190 300 250 470 145 620 260 790 165 960 260 1100 170 1200 230V360H0Z" fill="#25323b"/>
+<path d="M0 310 160 235 300 280 480 210 650 286 820 220 1000 280 1140 230 1200 255V360H0Z" fill="#1b252e"/>
+<g fill="#d99a91" opacity=".8"><path d="M160 18c9 8 9 17 0 25-9-8-9-17 0-25Z"/><path d="M355 70c8 7 8 15 0 22-8-7-8-15 0-22Z"/><path d="M925 32c9 8 9 17 0 25-9-8-9-17 0-25Z"/><path d="M1050 112c8 7 8 15 0 22-8-7-8-15 0-22Z"/></g>
+<rect x="72" y="286" width="1056" height="48" rx="16" fill="#ffffff" fill-opacity=".10" stroke="#ffffff" stroke-opacity=".3"/>
+<text x="600" y="317" fill="#f3f1ed" font-family="Arial, sans-serif" font-size="19" letter-spacing="7" text-anchor="middle">PLAN  ·  BUILD  ·  IMPROVE</text>
+</svg>
