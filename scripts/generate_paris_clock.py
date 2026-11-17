@@ -7,8 +7,10 @@ from xml.sax.saxutils import escape
 
 now = datetime.now(ZoneInfo("Europe/Paris"))
 time_text = now.strftime("%H:%M")
-date_text = now.strftime("%A %d %B %Y").capitalize()
-weekday = now.strftime("%A").upper()
+weekdays = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
+months = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"]
+weekday = weekdays[now.weekday()].upper()
+date_text = f"{weekdays[now.weekday()]} {now.day:02d} {months[now.month - 1]} {now.year}"
 
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="720" height="176" viewBox="0 0 720 176" role="img" aria-label="Paris live clock: {time_text}, {escape(date_text)}">
   <defs>
@@ -26,12 +28,6 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="720" height="176" viewB
       <stop offset="0" stop-color="#e8b99d"/>
       <stop offset="1" stop-color="#b96f50"/>
     </linearGradient>
-    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="9"/>
-      <feOffset dy="5"/>
-      <feComponentTransfer><feFuncA type="linear" slope=".28"/></feComponentTransfer>
-      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
     <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
   </defs>
   <rect x="12" y="12" width="696" height="152" rx="25" fill="#111820"/>
