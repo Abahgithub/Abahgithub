@@ -21,7 +21,9 @@
 ### Technologies
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=linux,windows,docker,js,html,css,python,git,github,vscode&perline=10&theme=dark" alt="Technologies" /><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Vmware-by-broadcom.svg" alt="VMware by Broadcom" height="38" align="middle" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=linux,windows,vmwareworkstation,docker,js,html,css,python,git,github,vscode&perline=11&theme=dark" alt="Technologies" />
+  </a>
 </div>
 
 <div align="center">
