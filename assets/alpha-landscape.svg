@@ -1,17 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-<title id="title">ALPHA — sunrise over mountains</title><desc id="desc">A calm sunrise behind layered mountains in a dark slate and terracotta palette.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+<title id="title">ALPHA — sunrise over mountains, liquid glass and technology</title>
+<desc id="desc">A refined dark mountain landscape at sunrise, framed by translucent liquid-glass panels and subtle electric-blue technology lines.</desc>
 <defs>
- <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#273646"/><stop offset=".52" stop-color="#53616c"/><stop offset="1" stop-color="#bd8069"/></linearGradient>
- <radialGradient id="glow"><stop stop-color="#f7d5a5" stop-opacity=".9"/><stop offset="1" stop-color="#f7d5a5" stop-opacity="0"/></radialGradient>
- <linearGradient id="sun" x2="1" y2="1"><stop stop-color="#ffe5b7"/><stop offset="1" stop-color="#d58c66"/></linearGradient>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop stop-color="#111c2a"/><stop offset=".52" stop-color="#35495a"/><stop offset="1" stop-color="#9b756e"/>
+  </linearGradient>
+  <radialGradient id="sunGlow">
+    <stop stop-color="#ffd9a6" stop-opacity=".72"/><stop offset=".48" stop-color="#e9a77d" stop-opacity=".22"/><stop offset="1" stop-color="#e9a77d" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#fff0ca"/><stop offset="1" stop-color="#d58b68"/>
+  </linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#ffffff" stop-opacity=".19"/><stop offset=".45" stop-color="#b9d7e8" stop-opacity=".055"/><stop offset="1" stop-color="#ffffff" stop-opacity=".12"/>
+  </linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#d8f4ff" stop-opacity=".62"/><stop offset=".5" stop-color="#8ad9ef" stop-opacity=".16"/><stop offset="1" stop-color="#ffffff" stop-opacity=".38"/>
+  </linearGradient>
+  <linearGradient id="electric" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#75d9f5" stop-opacity="0"/><stop offset=".45" stop-color="#75d9f5" stop-opacity=".9"/><stop offset="1" stop-color="#b9edff" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="24"/></filter>
+  <filter id="softGlow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="round"><rect x="18" y="18" width="1164" height="424" rx="30"/></clipPath>
 </defs>
-<rect width="1200" height="360" fill="url(#sky)"/>
-<ellipse cx="600" cy="285" rx="390" ry="145" fill="url(#glow)"/>
-<circle cx="600" cy="218" r="67" fill="url(#sun)"/>
-<path d="M0 260 130 145 220 218 390 78 535 220 690 115 840 225 1010 96 1200 230V360H0Z" fill="#35434c"/>
-<path d="M0 280 175 190 300 250 470 145 620 260 790 165 960 260 1100 170 1200 230V360H0Z" fill="#25323b"/>
-<path d="M0 310 160 235 300 280 480 210 650 286 820 220 1000 280 1140 230 1200 255V360H0Z" fill="#1b252e"/>
-<g fill="#d99a91" opacity=".8"><path d="M160 18c9 8 9 17 0 25-9-8-9-17 0-25Z"/><path d="M355 70c8 7 8 15 0 22-8-7-8-15 0-22Z"/><path d="M925 32c9 8 9 17 0 25-9-8-9-17 0-25Z"/><path d="M1050 112c8 7 8 15 0 22-8-7-8-15 0-22Z"/></g>
-<rect x="72" y="286" width="1056" height="48" rx="16" fill="#ffffff" fill-opacity=".10" stroke="#ffffff" stroke-opacity=".3"/>
-<text x="600" y="317" fill="#f3f1ed" font-family="Arial, sans-serif" font-size="19" letter-spacing="7" text-anchor="middle">PLAN  ·  BUILD  ·  IMPROVE</text>
+<g clip-path="url(#round)">
+  <rect width="1200" height="460" fill="url(#sky)"/>
+  <circle cx="600" cy="222" r="180" fill="url(#sunGlow)" filter="url(#blur)"/>
+  <circle cx="600" cy="218" r="74" fill="url(#sun)"/>
+  <path d="M0 300 130 172 224 252 390 105 535 258 704 132 858 266 1018 112 1200 270V460H0Z" fill="#3a4b57"/>
+  <path d="m330 160 60-55 56 60-42-24-18 22-21-20Z M648 185l56-53 55 56-43-22-15 19-22-19Z M969 157l49-45 48 49-39-18-16 18-18-17Z" fill="#a8b6bc" opacity=".22"/>
+  <path d="M0 330 170 220 302 292 470 175 626 302 800 188 972 300 1110 202 1200 268V460H0Z" fill="#263642"/>
+  <path d="M0 376 164 282 310 340 484 255 650 354 828 260 1000 342 1140 280 1200 310V460H0Z" fill="#192631"/>
+  <path d="M0 412 180 340 330 385 510 318 680 395 860 322 1030 385 1170 335 1200 350V460H0Z" fill="#111c26"/>
+  <path d="M0 300 Q300 270 600 300 T1200 292" fill="none" stroke="#f2c6a0" stroke-opacity=".18" stroke-width="2"/>
+  <!-- Subtle circuit traces -->
+  <g fill="none" stroke="#8bdcf5" stroke-width="2" opacity=".55">
+    <path d="M70 92h120l24 24h76m-45 0v36h58"/>
+    <path d="M1130 82h-104l-26 26h-74m40 0v38h-55"/>
+    <path d="M85 360h130l22-22h66m-36 0v-25h44"/>
+    <path d="M1115 352h-118l-24-24h-68m40 0v-27h-44"/>
+  </g>
+  <g fill="#9be7ff" opacity=".85" filter="url(#softGlow)">
+    <circle cx="290" cy="116" r="3"/><circle cx="845" cy="108" r="3"/><circle cx="303" cy="338" r="3"/><circle cx="905" cy="328" r="3"/>
+  </g>
+  <!-- Liquid-glass information panel -->
+  <rect x="105" y="342" width="990" height="74" rx="22" fill="url(#glass)" stroke="url(#edge)" stroke-width="1.5"/>
+  <path d="M128 357h944" stroke="#ffffff" stroke-opacity=".18"/>
+  <path d="M128 400h944" stroke="url(#electric)" stroke-width="1.5" filter="url(#softGlow)"/>
+  <text x="600" y="388" fill="#f4f7fa" font-family="Arial, sans-serif" font-size="21" font-weight="600" letter-spacing="8" text-anchor="middle">PLAN  ·  BUILD  ·  IMPROVE</text>
+  <!-- Glass highlights and frame -->
+  <path d="M42 72 Q42 42 72 42h230M898 42h230q30 0 30 30v38M42 330v58q0 30 30 30h230M898 418h230q30 0 30-30v-58" fill="none" stroke="#e4f7ff" stroke-opacity=".25" stroke-width="1.5"/>
+  <rect x="18" y="18" width="1164" height="424" rx="30" fill="none" stroke="#dcecf4" stroke-opacity=".25" stroke-width="2"/>
+  <path d="M40 58h260" stroke="url(#electric)" stroke-width="2" filter="url(#softGlow)"/>
+  <path d="M900 402h260" stroke="url(#electric)" stroke-width="2" filter="url(#softGlow)"/>
+</g>
 </svg>
