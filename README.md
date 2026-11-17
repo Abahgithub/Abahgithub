@@ -22,7 +22,7 @@
 
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=linux,windows,vmwareworkstation,docker,js,html,css,python,git,github,vscode&perline=11&theme=dark" alt="Technologies" />
+    <img src="https://skillicons.dev/icons?i=linux,windows,docker,js,html,css,python,git,github,vscode&perline=10&theme=dark" alt="Technologies" /><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vsphere/vsphere-original.svg" width="48" height="48" alt="VMware vSphere" />
   </a>
 </div>
 
