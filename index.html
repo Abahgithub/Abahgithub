@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#171c24">
+<title>ALPHA — IT Project Management & Infrastructure</title>
+<style>
+:root{color-scheme:dark;--bg:#171c24;--ink:#f3f1ed;--muted:#b7c0ca;--accent:#c47754;--glass:rgba(255,255,255,.09);--line:rgba(255,255,255,.16)}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% 0%,#34404c 0%,#202832 42%,#141920 100%);color:var(--ink);font:16px/1.55 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;display:grid;place-items:center;padding:28px}
+main{width:min(960px,100%);border:1px solid var(--line);border-radius:28px;background:var(--glass);backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px);box-shadow:0 24px 80px #0006;overflow:hidden}
+header{padding:26px 30px 12px;text-align:center;position:relative;z-index:2}h1{font-size:clamp(2.6rem,8vw,5rem);letter-spacing:.16em;margin:0 0 4px;font-weight:650} .eyebrow{font-size:.78rem;letter-spacing:.15em;color:#d4dbe1;text-transform:uppercase}.tagline{color:var(--muted);margin:8px 0 0}
+.scene{height:290px;position:relative;overflow:hidden;background:linear-gradient(180deg,#273646 0%,#53616c 44%,#bd8069 80%,#e0b18b 100%)}
+.scene:before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 50% 82%,#f7d5a5aa 0,transparent 35%)}
+.sun{position:absolute;width:88px;height:88px;border-radius:50%;left:calc(50% - 44px);bottom:78px;background:linear-gradient(145deg,#ffe5b7,#d58c66);box-shadow:0 0 55px #f3c08c99;animation:rise 12s ease-in-out infinite alternate}
+@keyframes rise{from{transform:translateY(28px)}to{transform:translateY(-24px)}}
+.mountains{position:absolute;inset:auto 0 0;width:100%;height:100%}.ridge1{fill:#35434c}.ridge2{fill:#25323b}.ridge3{fill:#1b252e}
+.glassline{position:absolute;left:8%;right:8%;bottom:18px;height:42px;border:1px solid #ffffff45;border-radius:14px;background:#ffffff14;backdrop-filter:blur(12px)}
+.petals{position:absolute;inset:0;pointer-events:none}.petal{position:absolute;top:-24px;width:10px;height:16px;border-radius:90% 10% 90% 10%;background:#d99a91;opacity:.7;animation:fall 12s linear infinite}.petal:nth-child(1){left:16%;animation-delay:-3s}.petal:nth-child(2){left:35%;animation-delay:-8s}.petal:nth-child(3){left:68%;animation-delay:-5s}.petal:nth-child(4){left:84%;animation-delay:-10s}
+@keyframes fall{to{transform:translate(35px,340px) rotate(360deg)}}
+.content{padding:22px 30px 30px;display:grid;gap:18px}.date{color:#e2b59a;text-align:center;font-size:.9rem;letter-spacing:.04em}.badges{display:flex;justify-content:center;flex-wrap:wrap;gap:8px}.badge{border:1px solid var(--line);background:#ffffff0d;color:#e9edf0;border-radius:999px;padding:6px 11px;font-size:.8rem}.section{border-top:1px solid var(--line);padding-top:16px}.section h2{font-size:.95rem;letter-spacing:.1em;text-transform:uppercase;margin:0 0 8px;color:#e2b59a}.section p{margin:0;color:#e3e7eb}.foot{text-align:center;color:var(--muted);font-size:.82rem;letter-spacing:.12em}
+a{color:#f0c1a4;text-decoration:none}a:hover{text-decoration:underline}
+@media(max-width:600px){body{padding:12px}main{border-radius:20px}header{padding:22px 16px 10px}.scene{height:220px}.content{padding:18px 18px 24px}.sun{bottom:60px;width:68px;height:68px;left:calc(50% - 34px)}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<h1>ALPHA</h1>
+<div class="eyebrow">IT Project Management · Systems & Networks · Cybersecurity</div>
+<p class="tagline">Reliable infrastructure. Practical solutions.</p>
+</header>
+<section class="scene" aria-label="Lever de soleil derrière les montagnes">
+<div class="sun"></div>
+<svg class="mountains" viewBox="0 0 1200 320" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+<path class="ridge1" d="M0 245 130 145 220 218 390 78 535 220 690 115 840 225 1010 96 1200 230V320H0Z"/>
+<path class="ridge2" d="M0 260 175 190 300 250 470 145 620 260 790 165 960 260 1100 170 1200 230V320H0Z"/>
+<path class="ridge3" d="M0 278 160 235 300 280 480 210 650 286 820 220 1000 280 1140 230 1200 255V320H0Z"/>
+</svg>
+<div class="petals" aria-hidden="true"><i class="petal"></i><i class="petal"></i><i class="petal"></i><i class="petal"></i></div>
+<div class="glassline"></div>
+</section>
+<div class="content">
+<div class="date" id="date">Chargement de la date…</div>
+<div class="badges">
+<span class="badge">📋 Project Management</span><span class="badge">🔄 Agile · Scrum</span><span class="badge">🪟 Windows</span><span class="badge">🐧 Linux</span><span class="badge">🛡️ Cybersecurity</span><span class="badge">🌐 Networks</span><span class="badge">🖥️ Virtualization</span><span class="badge">⚙️ Automation</span><span class="badge">🤖 AI</span>
+</div>
+<section class="section"><h2>About · À propos</h2><p>IT professional focused on project management, infrastructure, systems administration, networks and cybersecurity.<br>Professionnel IT orienté gestion de projets, infrastructures, systèmes, réseaux et cybersécurité.</p></section>
+<section class="section"><h2>Technologies</h2><p>Linux · Windows Server · VMware · Docker · PowerShell · Git · JavaScript · HTML · CSS · Python <span style="color:#b7c0ca">(learning)</span></p></section>
+<div class="foot">PLAN · BUILD · IMPROVE &nbsp;·&nbsp; <a href="https://github.com/Abahgithub">GITHUB</a></div>
+</div>
+</main>
+<script>
+const dateNode=document.getElementById('date');
+const formatter=new Intl.DateTimeFormat('fr-FR',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+function updateDate(){const d=new Date();const s=formatter.format(d);dateNode.textContent=s.charAt(0).toUpperCase()+s.slice(1);}
+updateDate();setInterval(updateDate,60000);
+</script>
+</body>
+</html>
