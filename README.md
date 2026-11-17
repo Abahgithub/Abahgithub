@@ -32,7 +32,15 @@
   </a>
 </div>
 
+---
 
+### Contribution activity · Last 90 days
+
+<div align="center">
+
+<img src="https://brettterpstra.com/contrib/generate?username=Abahgithub&weeks=13&theme=github-dark&width=1200&caption_month=1&caption_day=1&download=0" alt="GitHub contribution calendar for approximately the last 90 days, with month and weekday labels" />
+
+</div>
 
 ### Contribution game
 
