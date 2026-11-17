@@ -12,7 +12,7 @@
 
 ---
 
-### 🛠️ Technologies
+### Technologies
 
 <div align="center">
 
@@ -20,33 +20,22 @@
 
 </div>
 
-### 📌 Methods & interests
-
-`Agile` · `Scrum` · `IT Automation` · `Virtualization` · `Cybersecurity` · `Artificial Intelligence`
-
 ---
 
-### 📊 GitHub activity · Last 90 days
+### GitHub dashboard
+
+<div align="center">
+
+![Followers](https://img.shields.io/github/followers/Abahgithub?label=Followers&style=flat-square&color=526D82) ![Public repositories](https://img.shields.io/github/repos/Abahgithub?label=Public%20repositories&style=flat-square&color=64748B) ![Stars](https://img.shields.io/github/stars/Abahgithub?affiliations=OWNER&label=Stars&style=flat-square&color=C47754)
+
+![Paris local date and time](https://readmeme.eu.cc/api/time.svg?theme=ink&timezone=Europe%2FParis&timeFormat=24h&showSeconds=0&showDate=1&showDay=1&label=PARIS)
+
+</div>
+
+### Activity · Last 90 days
 
 <div align="center">
 
 [![90-day activity graph](https://github-readme-activity-graph.ashutosh-dwivedi0710.workers.dev/graph?username=Abahgithub&days=90&custom_title=Activity%20%7C%20Last%2090%20Days&bg_color=0d1117&color=c9d1d9&line=c47754&point=75d9f5&area=true&hide_border=true&height=240)](https://github.com/Abahgithub)
-
-### GitHub KPIs
-
-<table>
-<tr>
-<td align="center" valign="middle">
-
-![Followers](https://img.shields.io/github/followers/Abahgithub?label=Followers&style=flat-square&color=526D82) ![Public repositories](https://img.shields.io/github/repos/Abahgithub?label=Public%20repositories&style=flat-square&color=64748B) ![Stars](https://img.shields.io/github/stars/Abahgithub?affiliations=OWNER&label=Stars&style=flat-square&color=C47754)
-
-</td>
-<td align="center" valign="middle">
-
-![Paris local date and time](https://readmeme.eu.cc/api/time.svg?theme=ink&timezone=Europe%2FParis&timeFormat=24h&showSeconds=0&showDate=1&showDay=1&label=PARIS)
-
-</td>
-</tr>
-</table>
 
 </div>
