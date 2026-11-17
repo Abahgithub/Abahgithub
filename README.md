@@ -1,4 +1,10 @@
 <div align="center">
+  
+<div align="center">
+
+![PARIS · LIVE CLOCK](https://readmeme.eu.cc/api/time.svg?theme=ink&timezone=Europe%2FParis&timeFormat=24h&showSeconds=1&showDate=1&showDay=1&label=PARIS)
+
+</div>
 
   <h1 align="center">ALPHA</h1>
 
@@ -26,11 +32,7 @@
   </a>
 </div>
 
-<div align="center">
 
-![PARIS · LIVE CLOCK](https://readmeme.eu.cc/api/time.svg?theme=ink&timezone=Europe%2FParis&timeFormat=24h&showSeconds=1&showDate=1&showDay=1&label=PARIS)
-
-</div>
 
 ### Contribution game
 
