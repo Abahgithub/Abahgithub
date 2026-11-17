@@ -23,6 +23,71 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Add calendar month and weekday labels
+        shell: bash
+        run: |
+          node <<'NODE'
+          const fs = require("fs");
+
+          const today = new Date();
+          today.setUTCHours(0, 0, 0, 0);
+
+          const currentSunday = new Date(today);
+          currentSunday.setUTCDate(today.getUTCDate() - today.getUTCDay());
+
+          const firstSunday = new Date(currentSunday);
+          firstSunday.setUTCDate(currentSunday.getUTCDate() - 52 * 7);
+
+          const labels = [];
+          const monthFormatter = new Intl.DateTimeFormat("en", {
+            month: "short",
+            timeZone: "UTC"
+          });
+
+          for (let month = 0; month < 13; month++) {
+            const date = new Date(Date.UTC(
+              firstSunday.getUTCFullYear(),
+              firstSunday.getUTCMonth() + month,
+              1
+            ));
+
+            if (date < firstSunday || date > today) continue;
+
+            const days = Math.floor((date - firstSunday) / 86400000);
+            const week = Math.floor(days / 7);
+            const x = 2 + week * 16;
+
+            labels.push(
+              '<text x="' + x + '" y="-12" fill="#8b949e" font-size="10" font-family="Arial, sans-serif">' +
+              monthFormatter.format(date) +
+              '</text>'
+            );
+          }
+
+          const weekdays = [
+            { label: "Mon", y: 29 },
+            { label: "Wed", y: 61 },
+            { label: "Fri", y: 93 }
+          ];
+
+          for (const day of weekdays) {
+            labels.push(
+              '<text x="-5" y="' + day.y + '" text-anchor="end" fill="#8b949e" font-size="9" font-family="Arial, sans-serif">' +
+              day.label +
+              '</text>'
+            );
+          }
+
+          for (const file of [
+            "dist/github-contribution-grid-snake.svg",
+            "dist/github-contribution-grid-snake-dark.svg"
+          ]) {
+            let svg = fs.readFileSync(file, "utf8");
+            svg = svg.replace("</svg>", '<g class="calendar-labels">' + labels.join("") + '</g></svg>');
+            fs.writeFileSync(file, svg);
+          }
+          NODE
+
       - name: Publish snake animation
         uses: crazy-max/ghaction-github-pages@v3.2.0
         with:
