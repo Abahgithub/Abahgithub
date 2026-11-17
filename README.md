@@ -23,3 +23,16 @@
 ### 📌 Methods & interests
 
 `Agile` · `Scrum` · `IT Automation` · `Virtualization` · `Cybersecurity` · `Artificial Intelligence`
+
+---
+
+### 📊 GitHub activity · Last 90 days
+
+<div align="center">
+
+[![90-day activity graph](https://github-readme-activity-graph.ashutosh-dwivedi0710.workers.dev/graph?username=Abahgithub&days=90&custom_title=Activity%20%7C%20Last%2090%20Days&bg_color=0d1117&color=c9d1d9&line=c47754&point=75d9f5&area=true&hide_border=true&height=240)](https://github.com/Abahgithub)
+
+### GitHub KPIs
+
+![GitHub KPIs](https://github-readme-stats.vercel.app/api?username=Abahgithub&show_icons=true&hide_title=true&hide_rank=true&include_all_commits=true&theme=github_dark&hide_border=true)
+</div>
