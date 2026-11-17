@@ -9,7 +9,7 @@
   <h1 align="center">ALPHA</h1>
  
 
-  <p><strong>  · SYSTEMS · NETWORKS · CYBERSECURITY · IA · IT PROJECT · AGILE</strong></p>
+  <p><strong>  · SYSTEMS  · NETWORKS  · CYBERSECURITY  · IA  · IT PROJECT  · AGILE</strong></p>
 
   <p>
     <img src="https://img.shields.io/badge/Project_Management-34495E?style=flat-square&logo=trello&logoColor=white" alt="Project Management" />
