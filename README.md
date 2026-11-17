@@ -1,10 +1,14 @@
 <div align="center">
+
+<img src="./assets/alpha-landscape.svg" alt="ALPHA — sunrise over mountains with liquid glass technology design" width="100%" />
+
 <h1 align="center">ALPHA</h1>
 
 **IT PROJECT MANAGEMENT · AGILE METHODS · SYSTEMS & NETWORKS · CYBERSECURITY**  
 *Reliable infrastructure. Practical solutions.*
 
-<img src="./assets/alpha-landscape.svg" alt="ALPHA — sunrise over mountains" width="100%" />
+IT professional focused on **IT project management, infrastructure, systems administration, networks and cybersecurity**.  
+Professionnel IT spécialisé en **gestion de projets, infrastructures, administration systèmes, réseaux et cybersécurité**.
 
 ![Project Management](https://img.shields.io/badge/Project_Management-34495E?style=flat-square&logo=trello&logoColor=white) ![Agile](https://img.shields.io/badge/Agile-526D82?style=flat-square&logo=agile&logoColor=white) ![Scrum](https://img.shields.io/badge/Scrum-66727D?style=flat-square&logo=scrumalliance&logoColor=white)
 
@@ -13,11 +17,6 @@
 </div>
 
 ---
-
-### 🧑‍💻 About
-
-IT professional focused on **IT project management, infrastructure, systems administration, networks and cybersecurity**.  
-Professionnel IT spécialisé en **gestion de projets, infrastructures, administration systèmes, réseaux et cybersécurité**.
 
 ### 🛠️ Technologies
 
