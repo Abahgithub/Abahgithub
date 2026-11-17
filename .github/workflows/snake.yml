@@ -29,6 +29,8 @@ jobs:
           node <<'NODE'
           const fs = require("fs");
 
+          // The contribution grid is 53 columns wide, with 16px between cells.
+          // Its first column starts on the Sunday 52 weeks before the current week.
           const today = new Date();
           today.setUTCHours(0, 0, 0, 0);
 
@@ -38,39 +40,47 @@ jobs:
           const firstSunday = new Date(currentSunday);
           firstSunday.setUTCDate(currentSunday.getUTCDate() - 52 * 7);
 
-          const labels = [];
           const monthFormatter = new Intl.DateTimeFormat("en", {
             month: "short",
             timeZone: "UTC"
           });
 
-          for (let month = 0; month < 13; month++) {
-            const date = new Date(Date.UTC(
-              firstSunday.getUTCFullYear(),
-              firstSunday.getUTCMonth() + month,
+          const labels = [];
+          const firstMonth = new Date(Date.UTC(
+            firstSunday.getUTCFullYear(),
+            firstSunday.getUTCMonth(),
+            1
+          ));
+
+          for (let offset = 0; offset < 13; offset++) {
+            const monthStart = new Date(Date.UTC(
+              firstMonth.getUTCFullYear(),
+              firstMonth.getUTCMonth() + offset,
               1
             ));
 
-            if (date < firstSunday || date > today) continue;
+            if (monthStart > today) break;
 
-            const days = Math.floor((date - firstSunday) / 86400000);
-            const week = Math.floor(days / 7);
-            const x = 2 + week * 16;
+            // If the first month began before the visible grid, anchor it to column 0.
+            const visibleDate = monthStart < firstSunday ? firstSunday : monthStart;
+            const daysFromStart = Math.floor((visibleDate - firstSunday) / 86400000);
+            const weekColumn = Math.floor(daysFromStart / 7);
+            const x = 2 + weekColumn * 16;
 
             labels.push(
               '<text x="' + x + '" y="-12" fill="#8b949e" font-size="10" font-family="Arial, sans-serif">' +
-              monthFormatter.format(date) +
+              monthFormatter.format(monthStart) +
               '</text>'
             );
           }
 
-          const weekdays = [
+          // GitHub contribution rows are Sunday through Saturday.
+          // Label Monday, Wednesday and Friday, aligned with their row centers.
+          for (const day of [
             { label: "Mon", y: 29 },
             { label: "Wed", y: 61 },
             { label: "Fri", y: 93 }
-          ];
-
-          for (const day of weekdays) {
+          ]) {
             labels.push(
               '<text x="-5" y="' + day.y + '" text-anchor="end" fill="#8b949e" font-size="9" font-family="Arial, sans-serif">' +
               day.label +
@@ -83,7 +93,12 @@ jobs:
             "dist/github-contribution-grid-snake-dark.svg"
           ]) {
             let svg = fs.readFileSync(file, "utf8");
-            svg = svg.replace("</svg>", '<g class="calendar-labels">' + labels.join("") + '</g></svg>');
+            if (!svg.includes('class="calendar-labels"')) {
+              svg = svg.replace(
+                "</svg>",
+                '<g class="calendar-labels">' + labels.join("") + "</g></svg>"
+              );
+            }
             fs.writeFileSync(file, svg);
           }
           NODE
