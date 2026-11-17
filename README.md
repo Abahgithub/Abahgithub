@@ -1,6 +1,6 @@
 <div align="center">
+<h1 align="center">ALPHA</h1>
 
-# ALPHA
 **IT PROJECT MANAGEMENT · AGILE METHODS · SYSTEMS & NETWORKS · CYBERSECURITY**  
 *Reliable infrastructure. Practical solutions.*
 
