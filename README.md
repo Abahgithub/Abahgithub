@@ -21,7 +21,7 @@
 ### Technologies
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=linux,windows,docker,js,html,css,python,git,github,vscode&perline=10&theme=dark" alt="Technologies" /><img src="https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white" alt="VMware" align="middle" />
+  <img src="https://skillicons.dev/icons?i=linux,windows,docker,js,html,css,python,git,github,vscode&perline=10&theme=dark" alt="Technologies" /><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Vmware-by-broadcom.svg" alt="VMware by Broadcom" height="38" align="middle" />
 </div>
 
 <div align="center">
