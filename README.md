@@ -34,5 +34,6 @@
 
 ### GitHub KPIs
 
-![GitHub KPIs](https://github-readme-stats.vercel.app/api?username=Abahgithub&show_icons=true&hide_title=true&hide_rank=true&include_all_commits=true&theme=github_dark&hide_border=true)
+![Followers](https://img.shields.io/github/followers/Abahgithub?label=Followers&style=flat-square&color=526D82) ![Public repositories](https://img.shields.io/github/repos/Abahgithub?label=Public%20repositories&style=flat-square&color=64748B) ![Stars](https://img.shields.io/github/stars/Abahgithub?affiliations=OWNER&label=Stars&style=flat-square&color=C47754)
+
 </div>
