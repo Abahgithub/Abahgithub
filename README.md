@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="./assets/alpha-landscape.svg" alt="ALPHA — sunrise over mountains with liquid glass technology design" width="100%" />
-
 <h1 align="center">ALPHA</h1>
 
 **IT PROJECT MANAGEMENT · AGILE · SYSTEMS · NETWORKS · CYBERSECURITY**
