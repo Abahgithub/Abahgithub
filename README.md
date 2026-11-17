@@ -2,47 +2,41 @@
 
 # 👋 ALPHA
 
-**IT PROJECTS · SYSTEMS & NETWORKS · CYBERSECURITY**
+**IT PROJECT MANAGEMENT · SYSTEMS & NETWORKS · CYBERSECURITY**
 
-*Building. Learning. Improving.*
+*Reliable infrastructure. Practical solutions.*
 
 [![Systems](https://img.shields.io/badge/Systems_%26_Infrastructure-303846?style=flat-square)](#)
+[![Networks](https://img.shields.io/badge/Networks-5B718A?style=flat-square)](#)
 [![Cybersecurity](https://img.shields.io/badge/Cybersecurity-B85C38?style=flat-square)](#)
-[![Automation](https://img.shields.io/badge/IT_Automation-5B718A?style=flat-square)](#)
-[![AI](https://img.shields.io/badge/AI_%26_Development-6B806B?style=flat-square)](#)
+[![Automation](https://img.shields.io/badge/IT_Automation-6B806B?style=flat-square)](#)
 
 </div>
 
 ---
 
-### 🧑‍💻 About me
+### 🧑‍💻 About
 
-IT project professional focused on **systems, networks and cybersecurity**.  
-Interested in software development and practical AI solutions.
+IT professional focused on **infrastructure, systems administration, networks and cybersecurity**.
 
-Professionnel IT orienté **infrastructures, réseaux et cybersécurité**.  
-Intéressé par le développement logiciel et les applications concrètes de l'IA.
+Professionnel IT spécialisé dans les **infrastructures, l'administration systèmes, les réseaux et la cybersécurité**.
 
-### 🛠️ Tech stack
+### 🛠️ Technologies
 
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=linux,windows,docker,js,html,css,python,git,github,vscode&perline=10)](https://skillicons.dev)
+[![Tech stack](https://skillicons.dev/icons?i=linux,windows,docker,js,html,css,python,git,github,vscode&perline=10)](https://skillicons.dev)
 
 </div>
 
-### 🚀 Currently building
+### 📚 Interests
 
-**VOALPHA** — Voice input browser extension, built modularly and evolving towards AI features.
-
-### 📚 Currently learning
-
-`Python` · `REST APIs` · `LLMs` · `RAG` · `AI Agents`
+`IT Automation` · `Software Development` · `Artificial Intelligence` · `Cloud & Infrastructure`
 
 ---
 
 <div align="center">
 
-**⚡ LEARN · BUILD · SHARE**
+**⚡ LEARN · BUILD · IMPROVE**
 
 </div>
