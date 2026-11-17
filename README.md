@@ -1,12 +1,13 @@
 <div align="center">
   
-<div align="center">
+
+
+  <h1 align="center">ALPHA</h1>
+  <div align="center">
 
 <img src="https://raw.githubusercontent.com/Abahgithub/Abahgithub/main/assets/paris-clock.svg" alt="Paris live clock — Liquid Glass" width="720" />
 
 </div>
-
-  <h1 align="center">ALPHA</h1>
 
   <p><strong>IT PROJECT MANAGEMENT · AGILE · SYSTEMS · NETWORKS · CYBERSECURITY</strong></p>
 
