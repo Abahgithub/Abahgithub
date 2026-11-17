@@ -1,4 +1,5 @@
 name: Update Paris Liquid Glass clock
+# Scheduled refresh every five minutes; push also refreshes the image immediately.
 
 on:
   schedule:
