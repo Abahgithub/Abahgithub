@@ -34,6 +34,19 @@
 
 ### GitHub KPIs
 
+<table>
+<tr>
+<td align="center" valign="middle">
+
 ![Followers](https://img.shields.io/github/followers/Abahgithub?label=Followers&style=flat-square&color=526D82) ![Public repositories](https://img.shields.io/github/repos/Abahgithub?label=Public%20repositories&style=flat-square&color=64748B) ![Stars](https://img.shields.io/github/stars/Abahgithub?affiliations=OWNER&label=Stars&style=flat-square&color=C47754)
+
+</td>
+<td align="center" valign="middle">
+
+![Paris local date and time](https://readmeme.eu.cc/api/time.svg?theme=ink&timezone=Europe%2FParis&timeFormat=24h&showSeconds=0&showDate=1&showDay=1&label=PARIS)
+
+</td>
+</tr>
+</table>
 
 </div>
