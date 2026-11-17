@@ -4,11 +4,10 @@
 
 <h1 align="center">ALPHA</h1>
 
-**IT PROJECT MANAGEMENT · AGILE METHODS · SYSTEMS & NETWORKS · CYBERSECURITY**  
-*Reliable infrastructure. Practical solutions.*
+**IT PROJECT MANAGEMENT · AGILE · SYSTEMS · NETWORKS · CYBERSECURITY**
 
-IT professional focused on **IT project management, infrastructure, systems administration, networks and cybersecurity**.  
-Professionnel IT spécialisé en **gestion de projets, infrastructures, administration systèmes, réseaux et cybersécurité**.
+*Reliable infrastructure. Practical solutions.*  
+*Des infrastructures fiables. Des solutions concrètes.*
 
 ![Project Management](https://img.shields.io/badge/Project_Management-34495E?style=flat-square&logo=trello&logoColor=white) ![Agile](https://img.shields.io/badge/Agile-526D82?style=flat-square&logo=agile&logoColor=white) ![Scrum](https://img.shields.io/badge/Scrum-66727D?style=flat-square&logo=scrumalliance&logoColor=white)
 
