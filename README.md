@@ -21,9 +21,9 @@
 ### Technologies
 
 <div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=linux,windows,vmware,docker,js,html,css,python,git,github,vscode&perline=11&theme=dark" alt="Technologies" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=linux,windows,docker,js,html,css,python,git,github,vscode&perline=10&theme=dark" alt="Technologies" />
+  <br />
+  <img src="https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white" alt="VMware" />
 </div>
 
 <div align="center">
