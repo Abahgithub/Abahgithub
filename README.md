@@ -32,10 +32,12 @@
 
 </div>
 
-### Activity · Last 90 days
+### Contribution game · 90 days
 
 <div align="center">
 
-[![90-day activity graph](https://github-readme-activity-graph.ashutosh-dwivedi0710.workers.dev/graph?username=Abahgithub&days=90&custom_title=Activity%20%7C%20Last%2090%20Days&bg_color=0d1117&color=c9d1d9&line=c47754&point=75d9f5&area=true&hide_border=true&height=240)](https://github.com/Abahgithub)
+![Contribution Snake](https://raw.githubusercontent.com/Abahgithub/Abahgithub/output/github-contribution-grid-snake-dark.svg)
+
+<sub>Keep contributing. Keep the snake moving.</sub>
 
 </div>
